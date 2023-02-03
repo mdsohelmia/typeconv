@@ -1,4 +1,4 @@
-module github.com/mdsohelmia/gotypconv
+module github.com/mdsohelmia/typeconv
 
 go 1.19
 

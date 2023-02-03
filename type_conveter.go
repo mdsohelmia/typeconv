@@ -1,4 +1,4 @@
-package gotypconv
+package typeconv
 
 // The `String` function returns a pointer to the provided string value.
 func String(v string) *string {

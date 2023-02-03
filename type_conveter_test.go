@@ -1,4 +1,4 @@
-package gotypconv
+package typeconv
 
 import (
 	"testing"
