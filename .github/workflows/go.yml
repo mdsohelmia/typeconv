@@ -15,8 +15,15 @@ jobs:
         uses: actions/setup-go@v3
         with:
           go-version: ${{ matrix.go-version }}
-      # You can test your matrix by printing the current Go version
       - name: Display Go version
         run: go version
-      - name: Test
-        run: go test -v ./...
+      - name: Install staticcheck
+        run: go install honnef.co/go/tools/cmd/staticcheck@latest
+      - name: Run staticcheck
+        run: staticcheck ./...
+      - name: Install golint
+        run: go install golang.org/x/lint/golint@latest
+      - name: Run golint
+        run: golint ./...
+      - name: Run Tests
+        run: go test -race -v ./...
