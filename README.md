@@ -14,7 +14,7 @@ Jump To:
 
 ### Installing
 
-Use `go get` to retrieve the SDK to add it to your `GOPATH` workspace, or
+Use `go get` to retrieve the pkg to add it to your `GOPATH` workspace, or
 project's Go module dependencies.
 
 ```sh
