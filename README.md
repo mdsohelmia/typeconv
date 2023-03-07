@@ -6,9 +6,7 @@ Jump To:
 
 - [Getting Started](#Getting-Started)
 - [Quick Examples](#Quick-Examples)
-- [Getting Help](#Getting-Help)
 - [Contributing](#Contributing)
-- [More Resources](#Resources)
 
 ## Getting Started
 
@@ -45,3 +43,7 @@ func main() {
 	fmt.Println(boolValue)
 }
 ```
+
+## Contributing
+
+We work hard to provide a high-quality and useful SDK for our AWS services, and we greatly value feedback and contributions from our community. Please review our [contributing guidelines](./CONTRIBUTING.md) before submitting any [issues] or [pull requests][pr] to ensure we have all the necessary information to effectively respond to your bug report or contribution.
